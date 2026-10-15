@@ -27,7 +27,7 @@
       --radius: 18px;
     }
 
-    * { box-sizing: border-box; }
+   { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
     body {
       margin: 0;
@@ -57,7 +57,7 @@
     }
     .sec-sub { max-width: 620px; color: var(--gray); }
 
-    .btn {
+   .btn {
       display: inline-flex;
       align-items: center;
       justify-content: center;
@@ -87,7 +87,7 @@
       color: var(--ink);
     }
 
-    .chip {
+  .chip {
       display: inline-flex;
       align-items: center;
       gap: 6px;
@@ -99,7 +99,7 @@
       font-weight: 800;
     }
 
-    .card {
+   .card {
       background: #fff;
       box-shadow: var(--shadow);
       border-radius: var(--radius);
@@ -173,10 +173,10 @@
     }
     .mobile-menu.open { display: flex; }
 
-    .page { display: none; min-height: 100vh; }
+   .page { display: none; min-height: 100vh; }
     .page.on { display: block; }
 
-    .hero {
+   .hero {
       position: relative;
       min-height: 92vh;
       display: flex;
@@ -231,7 +231,7 @@
     }
     .hero .btn-secondary { border-color: rgba(255,255,255,0.4); color: #fff; background: rgba(255,255,255,0.04); }
 
-    .search-wrap {
+   .search-wrap {
       position: relative;
       z-index: 5;
       margin-top: -70px;
@@ -254,7 +254,7 @@
       font-size: 12px;
       font-weight: 800;
       letter-spacing: 0.03em;
-      color: var(--gray);
+   color: var(--gray);
       text-transform: uppercase;
     }
     .field input, .field select, .field textarea {
@@ -269,7 +269,7 @@
     .field textarea { min-height: 92px; resize: vertical; }
     .field input:focus, .field select:focus, .field textarea:focus { outline: none; border-color: var(--ocean); box-shadow: 0 0 0 3px rgba(37,99,196,0.12); }
 
-    .caro-wrap { position: relative; }
+  .caro-wrap { position: relative; }
     .caro {
       display: flex;
       gap: 20px;
@@ -282,7 +282,7 @@
     .caro > * { scroll-snap-align: start; }
     .caro-btn {
       position: absolute;
-      top: 48%;
+  top: 48%;
       transform: translateY(-50%);
       width: 42px; height: 42px;
       display: flex; align-items: center; justify-content: center;
@@ -297,7 +297,7 @@
     .caro-btn.prev { left: -14px; }
     .caro-btn.next { right: -14px; }
 
-    .dest-card {
+   .dest-card {
       position: relative;
       width: 250px;
       height: 300px;
@@ -310,7 +310,7 @@
     }
     .dest-card img {
       width: 100%; height: 100%; object-fit: cover;
-      transition: transform .4s ease;
+  transition: transform .4s ease;
     }
     .dest-card:hover img { transform: scale(1.06); }
     .dest-overlay {
@@ -325,7 +325,7 @@
     .dest-overlay h3 { margin: 0; font-size: 22px; }
     .dest-overlay span { opacity: 0.82; font-size: 13px; }
 
-    .pkg-card {
+   .pkg-card {
       width: 320px;
       flex: 0 0 auto;
       background: #fff;
@@ -338,7 +338,7 @@
     .pkg-image-wrap { position: relative; }
     .pkg-image-wrap img {
       width: 100%; height: 200px; object-fit: cover; cursor: pointer;
-      transition: transform .35s ease;
+  transition: transform .35s ease;
     }
     .pkg-card:hover .pkg-image-wrap img { transform: scale(1.05); }
     .floating-heart {
@@ -367,7 +367,7 @@
       text-transform: uppercase;
       border-radius: 9px;
       padding: 6px 8px;
-    }
+   }
     .pkg-body {
       padding: 18px 18px 16px;
       display: flex;
@@ -395,14 +395,14 @@
       align-items: center;
       justify-content: space-between;
       gap: 12px;
-      padding-top: 12px;
+  padding-top: 12px;
       border-top: 1px solid var(--line);
     }
     .price { color: var(--royal); }
     .price strong { font-size: 22px; font-family: 'Playfair Display', serif; }
     .price span { font-size: 12px; color: var(--gray); }
 
-    .features-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 22px; }
+   .features-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 22px; }
     .feature {
       background: var(--surface);
       border-radius: var(--radius);
@@ -420,11 +420,11 @@
     .feature h3 { margin: 0 0 8px; font-size: 20px; }
     .feature p { margin: 0; color: var(--gray); }
 
-    .offer-box {
+   .offer-box {
       position: relative;
       display: grid;
       grid-template-columns: 1fr auto;
-      align-items: center;
+  align-items: center;
       gap: 30px;
       background: linear-gradient(135deg, var(--royal), var(--ocean));
       color: #fff;
@@ -450,10 +450,10 @@
     .offer-box h2 { margin: 12px 0 8px; font-size: clamp(28px, 2.8vw, 42px); }
     .offer-box p { margin: 0; color: rgba(255,255,255,0.82); }
 
-    .testimonial-wrap { max-width: 760px; margin: 26px auto 0; }
+   .testimonial-wrap { max-width: 760px; margin: 26px auto 0; }
     .testimonial {
       display: none;
-      text-align: center;
+   text-align: center;
     }
     .testimonial.active { display: block; }
     .testimonial img {
@@ -479,9 +479,9 @@
     }
     .dot.active { width: 26px; border-radius: 999px; background: var(--ocean); }
 
-    .newsletter {
+   .newsletter {
       background: var(--surface);
-      border-radius: 24px;
+  border-radius: 24px;
       padding: 30px 26px;
       display: grid;
       grid-template-columns: 1.2fr 1fr;
@@ -495,21 +495,21 @@
     }
     .newsletter input { min-width: 0; }
 
-    .pageheader {
+   .pageheader {
       background: linear-gradient(120deg, var(--royal), var(--ocean));
       color: #fff;
       padding: 72px 0 96px;
     }
     .pageheader h1 { margin: 10px 0 0; font-size: clamp(28px, 3vw, 42px); }
 
-    .search-layout {
+   .search-layout {
       display: grid;
       grid-template-columns: 270px minmax(0, 1fr);
       gap: 28px;
       margin-top: -56px;
       align-items: start;
     }
-    .filter-panel {
+  .filter-panel {
       background: #fff;
       box-shadow: var(--shadow);
       border-radius: var(--radius);
@@ -537,7 +537,7 @@
       font-weight: 600;
       padding: 6px 0;
     }
-    input[type="checkbox"], input[type="radio"] { width: 16px; height: 16px; accent-color: var(--ocean); }
+  input[type="checkbox"], input[type="radio"] { width: 16px; height: 16px; accent-color: var(--ocean); }
     .toolbar {
       display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;
       background: #fff; box-shadow: var(--shadow); border-radius: var(--radius); padding: 12px 18px; margin-bottom: 18px;
@@ -562,10 +562,10 @@
       display: flex; align-items: center; justify-content: center; margin: 0 auto 16px;
     }
 
-    .detail-page { padding-top: 80px; }
+   .detail-page { padding-top: 80px; }
     .detail-hero {
       display: grid;
-      grid-template-columns: 2fr 1fr 1fr;
+   grid-template-columns: 2fr 1fr 1fr;
       grid-template-rows: 200px 200px;
       gap: 10px;
       margin-bottom: 28px;
@@ -595,7 +595,7 @@
       display: flex; justify-content: space-between; align-items: flex-start; gap: 18px; flex-wrap: wrap;
       margin-bottom: 16px;
     }
-    .detail-header h1 { margin: 0 0 8px; font-size: clamp(28px, 3vw, 40px); }
+   .detail-header h1 { margin: 0 0 8px; font-size: clamp(28px, 3vw, 40px); }
     .detail-sub {
       margin: 0; color: var(--gray); font-size: 14px;
     }
@@ -624,7 +624,7 @@
     .price-box .status { color: var(--green); font-weight: 800; font-size: 13px; }
     .summary-list { color: var(--gray); font-size: 14px; line-height: 1.9; }
     .itinerary-list { display: grid; gap: 18px; }
-    .itinerary-item {
+   .itinerary-item {
       display: grid;
       grid-template-columns: 40px 1fr;
       gap: 12px;
@@ -639,7 +639,7 @@
     .itinerary-item p { margin: 0; color: var(--gray); font-size: 14px; }
     .chip-row { display: flex; flex-wrap: wrap; gap: 8px; }
 
-    .checkout-shell { padding-top: 82px; }
+   .checkout-shell { padding-top: 82px; }
     .checkout-layout {
       display: grid;
       grid-template-columns: minmax(0,1fr) 330px;
@@ -652,7 +652,7 @@
       grid-template-columns: repeat(2, minmax(0,1fr));
       gap: 16px;
     }
-    .checkout-summary {
+   .checkout-summary {
       display: grid;
       gap: 10px;
       font-size: 14px;
@@ -672,16 +672,16 @@
       width: 90px; height: 90px; border-radius: 50%; background: #e9f8f0; color: var(--green); display: flex; align-items: center; justify-content: center; font-size: 40px; margin: 0 auto 18px;
     }
 
-    .auth-panel {
+   .auth-panel {
       max-width: 440px;
       margin: 70px auto 0;
     }
-    .auth-panel h2 { margin: 0 0 8px; }
+   .auth-panel h2 { margin: 0 0 8px; }
     .auth-panel p { margin: 0 0 20px; color: var(--gray); }
     .auth-panel form { display: grid; gap: 14px; }
     .auth-panel .btn { width: 100%; }
 
-    .dash-layout {
+   .dash-layout {
       display: grid;
       grid-template-columns: 220px minmax(0,1fr);
       gap: 28px;
@@ -700,14 +700,14 @@
     .dashboard-grid {
       display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 18px; margin-bottom: 20px;
     }
-    .metric-card {
+   .metric-card {
       background: #fff; border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px 16px;
     }
     .metric-card span { display: block; font-size: 12px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gray); }
     .metric-card strong { display: block; margin-top: 6px; font-size: 32px; font-family: 'Playfair Display', serif; color: var(--royal); }
     .metric-card small { display: block; margin-top: 6px; color: var(--green); font-weight: 700; }
 
-    .table-wrap { overflow-x: auto; }
+  .table-wrap { overflow-x: auto; }
     table { width: 100%; border-collapse: collapse; min-width: 640px; }
     th, td {
       padding: 12px 10px;
@@ -716,7 +716,7 @@
       vertical-align: top;
     }
     th {
-      font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--gray); font-weight: 800;
+  font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--gray); font-weight: 800;
     }
     .status-pill {
       display: inline-flex; padding: 6px 10px; border-radius: 999px; font-weight: 800; font-size: 12px;
@@ -724,71 +724,71 @@
     .status-pill.confirmed { background: #eaf9f1; color: var(--green); }
     .status-pill.pending { background: #fff1d8; color: #a46a00; }
 
-    .modal-backdrop {
+   .modal-backdrop {
       position: fixed; inset: 0; background: rgba(10, 19, 40, 0.56); display: none; z-index: 200; align-items: center; justify-content: center; padding: 20px;
     }
     .modal-backdrop.on { display: flex; }
     .modal {
       width: min(540px, 100%);
-      background: #fff; border-radius: 22px; box-shadow: var(--shadow-lg); padding: 26px; max-height: 88vh; overflow: auto;
-    }
-    .toast-container {
-      position: fixed; right: 18px; bottom: 18px; z-index: 250; display: flex; flex-direction: column; gap: 10px;
-    }
-    .toast {
-      background: var(--ink); color: #fff; padding: 12px 16px; border-radius: 12px; box-shadow: var(--shadow-lg); font-size: 14px; font-weight: 700;
-      animation: slideIn .25s ease;
-    }
-    .toast.success { background: var(--green); }
-    .toast.error { background: var(--red); }
-    @keyframes slideIn { from { transform: translateX(30px); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+  background: #fff; border-radius: 22px; box-shadow: var(--shadow-lg); padding: 26px; max-height: 88vh; overflow: auto;
+   }
+  .toast-container {
+   position: fixed; right: 18px; bottom: 18px; z-index: 250; display: flex; flex-direction: column; gap: 10px;
+   }
+   .toast {
+   background: var(--ink); color: #fff; padding: 12px 16px; border-radius: 12px; box-shadow: var(--shadow-lg); font-size: 14px; font-weight: 700;
+   animation: slideIn .25s ease;
+   }
+  .toast.success { background: var(--green); }
+  .toast.error { background: var(--red); }
+  @keyframes slideIn { from { transform: translateX(30px); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
 
-    .footer {
-      margin-top: 18px;
-      background: #0e1b3d;
-      color: #d6def2;
-      padding: 60px 0 26px;
-    }
-    .footer-grid {
-      display: grid;
-      grid-template-columns: 1.6fr 1fr 1fr 1fr;
-      gap: 26px;
-    }
-    .footer h4 {
-      color: #fff; margin: 0 0 14px; font-size: 15px; font-weight: 800;
-    }
-    .footer a {
-      display: block; color: #d6def2; padding: 5px 0; font-size: 14px;
-    }
-    .footer a:hover { color: #fff; }
-    .footer .logo { color: #fff; }
-    .footer-bottom {
-      margin-top: 28px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.12);
-      display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; font-size: 13px; color: #c4cef0;
-    }
+  .footer {
+   margin-top: 18px;
+   background: #0e1b3d;
+   color: #d6def2;
+   padding: 60px 0 26px;
+  }
+  .footer-grid {
+   display: grid;
+   grid-template-columns: 1.6fr 1fr 1fr 1fr;
+  gap: 26px;
+  }
+  .footer h4 {
+  color: #fff; margin: 0 0 14px; font-size: 15px; font-weight: 800;
+   }
+   .footer a {
+   display: block; color: #d6def2; padding: 5px 0; font-size: 14px;
+   }
+   .footer a:hover { color: #fff; }
+   .footer .logo { color: #fff; }
+   .footer-bottom {
+   margin-top: 28px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.12);
+   display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; font-size: 13px; color: #c4cef0;
+   }
 
-    @media (max-width: 1100px) {
-      .features-grid, .dashboard-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
-      .search-box { grid-template-columns: repeat(2, minmax(0,1fr)); }
-      .search-box .btn { grid-column: 1 / -1; }
-      .detail-layout, .checkout-layout, .dash-layout { grid-template-columns: 1fr; }
-      .detail-sides { position: static; }
-      .newsletter, .footer-grid { grid-template-columns: 1fr 1fr; }
-      .offer-box { grid-template-columns: 1fr; }
-    }
+   @media (max-width: 1100px) {
+   .features-grid, .dashboard-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+   .search-box { grid-template-columns: repeat(2, minmax(0,1fr)); }
+   .search-box .btn { grid-column: 1 / -1; }
+   .detail-layout, .checkout-layout, .dash-layout { grid-template-columns: 1fr; }
+   .detail-sides { position: static; }
+   .newsletter, .footer-grid { grid-template-columns: 1fr 1fr; }
+   .offer-box { grid-template-columns: 1fr; }
+   }
 
-    @media (max-width: 760px) {
+   @media (max-width: 760px) {
       .nav-links, .nav-actions .btn-secondary { display: none; }
-      .burger { display: inline-flex; align-items: center; justify-content: center; width: 42px; height: 42px; border-radius: 12px; background: var(--sky-soft); border: 0; color: var(--ocean); }
-      .search-layout { display: block; }
-      .filter-panel { display: none; }
-      .results-grid { grid-template-columns: 1fr; }
-      .pkg-card { width: 100%; }
-      .features-grid, .dashboard-grid, .form-grid, .newsletter, .footer-grid { grid-template-columns: 1fr; }
-      .detail-hero { grid-template-columns: 1fr 1fr; grid-template-rows: 180px 180px 180px; }
-      .detail-hero .feature-col { grid-column: 1 / -1; grid-row: auto; }
-      section { padding: 56px 0; }
-    }
+      .burger { display: inline-flex; align-items: center; justify-content: center; width: 42px; height: 42px; border-radius: 12px; background: var(--sky-soft);  border: 0; color: var(--ocean); }
+   .search-layout { display: block; }
+   .filter-panel { display: none; }
+   .results-grid { grid-template-columns: 1fr; }
+   .pkg-card { width: 100%; }
+   .features-grid, .dashboard-grid, .form-grid, .newsletter, .footer-grid { grid-template-columns: 1fr; }
+   .detail-hero { grid-template-columns: 1fr 1fr; grid-template-rows: 180px 180px 180px; }
+   .detail-hero .feature-col { grid-column: 1 / -1; grid-row: auto; }
+   section { padding: 56px 0; }
+   }
   </style>
 </head>
 <body>
@@ -802,7 +802,7 @@
         <div>TRIPIFY<small>HOLIDAYS</small></div>
       </a>
 
-      <div class="nav-links" id="navLinks">
+  <div class="nav-links" id="navLinks">
         <a href="#/home" class="active">Home</a>
         <a href="#/search">Packages</a>
         <a href="#/offers">Offers</a>
@@ -810,11 +810,11 @@
         <a href="#/admin">Admin</a>
       </div>
 
-      <div class="nav-actions" id="navActions"></div>
+   <div class="nav-actions" id="navActions"></div>
       <button class="burger" id="burgerBtn" aria-label="Open menu">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
       </button>
-    </div>
+  </div>
   </nav>
 
   <div class="mobile-menu" id="mobileMenu">
@@ -839,7 +839,7 @@
       </div>
     </header>
 
-    <div class="container search-wrap">
+   <div class="container search-wrap">
       <form class="search-box" id="homeSearchForm">
         <div class="field">
           <label for="homeDestination">Destination</label>
@@ -879,7 +879,7 @@
       </form>
     </div>
 
-    <section>
+  <section>
       <div class="container">
         <span class="eyebrow">Trending now</span>
         <h2 class="sec-title">Destinations travellers love</h2>
@@ -891,7 +891,7 @@
       </div>
     </section>
 
-    <section>
+   <section>
       <div class="container">
         <span class="eyebrow">Campus vibes</span>
         <h2 class="sec-title">College IV Packages</h2>
@@ -903,7 +903,7 @@
       </div>
     </section>
 
-    <section style="background: var(--surface);">
+   <section style="background: var(--surface);">
       <div class="container">
         <span class="eyebrow">Featured</span>
         <h2 class="sec-title">Featured holiday packages</h2>
@@ -915,7 +915,7 @@
       </div>
     </section>
 
-    <section>
+  <section>
       <div class="container">
         <span class="eyebrow">Why Tripify</span>
         <h2 class="sec-title">Travel with total confidence</h2>
@@ -945,7 +945,7 @@
       </div>
     </section>
 
-    <section>
+   <section>
       <div class="container">
         <div class="offer-box" id="offers-anchor">
           <div>
@@ -958,7 +958,7 @@
       </div>
     </section>
 
-    <section style="background: var(--surface);">
+   <section style="background: var(--surface);">
       <div class="container">
         <span class="eyebrow">Testimonials</span>
         <h2 class="sec-title" style="text-align:center;">Loved by 40,000+ travellers</h2>
@@ -968,7 +968,6 @@
         </div>
       </div>
     </section>
-
     <section>
       <div class="container">
         <div class="newsletter">
@@ -993,7 +992,6 @@
         <h1>Find your perfect package</h1>
       </div>
     </div>
-
     <div class="container search-layout" style="padding-bottom: 60px;">
       <aside class="filter-panel">
         <div style="display:flex; justify-content:space-between; gap:12px; align-items:center; margin-bottom:12px;">
@@ -1003,7 +1001,7 @@
         <div id="filterBody"></div>
       </aside>
 
-      <div>
+   <div>
         <div class="toolbar">
           <span id="resultCount" style="font-weight: 800; color: var(--ink);">0 packages</span>
           <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
@@ -1017,8 +1015,7 @@
             </select>
           </div>
         </div>
-
-        <div class="results-grid" id="resultsGrid"></div>
+      <div class="results-grid" id="resultsGrid"></div>
         <div class="empty-state" id="emptyState">
           <div class="empty-icon"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="m21 21-4.3-4.3"></path></svg></div>
           <h3 style="margin: 0 0 8px; color: var(--ink);">No packages match your filters</h3>
@@ -1107,7 +1104,7 @@
       </div>
     </div>
 
-    <div class="container dash-layout" style="padding-bottom: 50px;">
+   <div class="container dash-layout" style="padding-bottom: 50px;">
       <aside class="sidebar">
         <a href="#/account" class="active" data-account-tab="bookings">My bookings</a>
         <a href="#/account" data-account-tab="wishlist">Wishlist</a>
@@ -1127,7 +1124,6 @@
         </div>
       </div>
     </div>
-
     <div class="container dash-layout" style="padding-bottom: 50px;">
       <aside class="sidebar" id="adminSidebar">
         <a href="#/admin" class="active" data-admin-tab="dashboard">Dashboard</a>
