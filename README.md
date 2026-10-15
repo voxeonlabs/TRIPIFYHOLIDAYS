@@ -27,7 +27,7 @@
       --radius: 18px;
     }
 
-   { box-sizing: border-box; }
+   *{ box-sizing: border-box; }
     html { scroll-behavior: smooth; }
     body {
       margin: 0;
